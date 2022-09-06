@@ -12,5 +12,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+def sub(x, y):
+    """
+    This function does subraction of 2 integers
+    :param x: integer
+    :param y: integer
+    :return: integer
+    """
+    return x-y
+
+
 if __name__ == "__main__":
     print("Hello")

@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+from index import sub
 
-def test_add():
-    assert True
+
+def test_sub():
+    assert sub(5, 3) == 2
