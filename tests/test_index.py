@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+from index import add
 
 def test_add():
-    assert True
+    assert add(3, 2)==5
