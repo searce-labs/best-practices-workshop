@@ -13,5 +13,5 @@
 # limitations under the License.
 
 
-def test_add():
+def test_true():
     assert True
