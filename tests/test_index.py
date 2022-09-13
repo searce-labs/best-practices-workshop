@@ -4,6 +4,8 @@
 # license that can be found in the LICENSE file or at
 # https://opensource.org/licenses/MIT.
 
+from index import sub
 
-def test_true():
-    assert True
+
+def test_sub():
+    assert sub(5, 3) == 2
