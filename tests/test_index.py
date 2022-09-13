@@ -4,6 +4,8 @@
 # license that can be found in the LICENSE file or at
 # https://opensource.org/licenses/MIT.
 
+from index import add
 
-def test_true():
-    assert True
+
+def test_add():
+    assert add(3, 2)==5
