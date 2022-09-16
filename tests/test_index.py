@@ -4,6 +4,8 @@
 # license that can be found in the LICENSE file or at
 # https://opensource.org/licenses/MIT.
 
+from index import division
 
-def test_true():
-    assert True
+
+def test_division():
+    assert division(4, 2) == 2
